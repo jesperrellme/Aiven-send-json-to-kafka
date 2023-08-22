@@ -7,7 +7,7 @@ import random
 
 
 # Kafka details
-bootstrap_servers = 'kafka-jesperrellme-jesper-9f34.aivencloud.com:27523'  # Note the SSL port (9093)
+bootstrap_servers = 'kafka-jesperrellme-jesper-9f34.aivencloud.com:27523'
 topic = 'jesperrellme_topic'
 cert_folder = "./certs"
 
@@ -51,4 +51,3 @@ producer.flush()
 producer.close()
 
 print("Events sent successfully")
-
