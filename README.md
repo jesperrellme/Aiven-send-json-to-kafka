@@ -11,6 +11,7 @@ Download your certificate files either from the console or through Aiven CLI:
 
 > *avn --auth-token $TOKEN service user-creds-download $SERVICE_NAME  --project $PROJECT_NAME --username avnadmin -d ./certs* 
 
+Place the files in a folder accessible to the program, e.g. "/certs"
 
 **Set your variables:**
 
