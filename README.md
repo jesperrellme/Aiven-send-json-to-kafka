@@ -24,4 +24,4 @@ Place the files in a folder accessible to the program, e.g. "/certs"
 
 **Run the program:**
 
-> *python main.py*
+> *python3 main.py*
