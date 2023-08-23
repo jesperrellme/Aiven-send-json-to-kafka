@@ -1,5 +1,6 @@
 from faker import Faker
 from iot_producer import IoTProvider
+from gordon_tech_iot_producer import GordonTechIoTProvider
 from kafka import KafkaProducer
 import json
 import time
@@ -27,7 +28,8 @@ faker = Faker()
 i = 0
 number_of_messages = 10
 
-faker.add_provider(IoTProvider)
+#faker.add_provider(IoTProvider)
+faker.add_provider(GordonTechIoTProvider)
 
 while i < number_of_messages:
 
