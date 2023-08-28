@@ -26,7 +26,7 @@ producer = KafkaProducer(
 faker = Faker()
 
 i = 0
-number_of_messages = 10
+number_of_messages = 2500
 
 #faker.add_provider(IoTProvider)
 faker.add_provider(GordonTechIoTProvider)
